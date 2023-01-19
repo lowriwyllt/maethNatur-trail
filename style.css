@@ -13,27 +13,17 @@
 html {
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom, #b0cabd 0px, #fffffe 200px 270px, #b0cabd 270px);
+    background: linear-gradient(to bottom, #b0cabd 0px, #fffffe 200px);
     background-repeat: no-repeat; /*(only want one*/
     background-size: 100%;
     position: absolute;
     top:0px;
 }
 
-.screen_moelwyn {
+.screen_moelwyn img {
     margin: 0;
-    padding:0;
+    padding: 0;
     width:100%;
-    height:160px;
-    background-image: url('./images/moelwynion.png');
-    background-repeat: no-repeat; /*(only want one*/
-    background-size: 100%;
-    position: absolute;
-    top:120px;
-}
-
-main{
-    margin-top: 150px;
 }
 
 ul{
@@ -42,7 +32,7 @@ ul{
     grid-template-columns: repeat(4, 1fr); /*grid of 3 column of the same size*/
     list-style: none; /*gets rid of bullet points*/
     text-align: center;
-
+    margin-top: -30px;
 }
 
 ul li {
@@ -64,7 +54,13 @@ ul li:hover{
     border-bottom-style: none;
 }
 
-p {
+main p {
     text-align: center;
-    margin: 20px;
+    padding: 20px;
+    background-color: #b0cabd;
+}
+
+footer {
+    background-color: #927357;
+    color: #fde2ab;
 }
